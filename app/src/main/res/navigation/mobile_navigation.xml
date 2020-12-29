@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.shoppinglist.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+    <fragment
+        android:id="@+id/nav_utgent_list"
+        android:name="com.example.shoppinglist.ui.List.UrgentList.UrgentList"
+        android:label="@string/menu_urgentList"
+        tools:layout="@layout/urgent_list_fragment"
+        />
+
+    <fragment
+        android:id="@+id/nav_all_list"
+        android:name="com.example.shoppinglist.ui.List.AllList.AllList"
+        android:label="@string/allist"
+        tools:layout="@layout/all_list_fragment"
+        />
+
+    <fragment
+        android:id="@+id/nav_all_categories"
+        android:name="com.example.shoppinglist.ui.Categories.AllCategories.AllCategories"
+        android:label="@string/allcategories"
+        tools:layout="@layout/all_categories_fragment"
+        />
+
+    <fragment
+        android:id="@+id/nav_edit_list"
+        android:name="com.example.shoppinglist.ui.List.EditList.EditList"
+        android:label="@string/menu_editList"
+        tools:layout="@layout/edit_list_fragment"
+        />
+
+    <fragment
+        android:id="@+id/nav_final_price"
+        android:name="com.example.shoppinglist.ui.FinalPrice.FinalPrice"
+        android:label="@string/finalprice"
+        tools:layout="@layout/final_price_fragment"
+        />
+
+
+
+</navigation>

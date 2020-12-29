@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/nomeUtilizador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#0B0707"
+            android:textSize="36sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:id="@+id/imageViewPerfil"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_account_circle_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textview01"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_span="1"
+                    android:text="@string/numberProducts"
+                    android:textColor="#050303"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/numberProducts"
+                    android:layout_width="156dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#050303"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textview02"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_span="1"
+                    android:text="@string/numberCategories"
+                    android:textColor="#050303"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/numberCategories"
+                    android:layout_width="156dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#050303"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textview03"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_span="1"
+                    android:text="@string/numberUrgentProducts"
+                    android:textColor="#050303"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/numberUrgentProducts"
+                    android:layout_width="156dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#050303"
+                    android:textSize="30sp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <!--<TextView
+            android:id="@+id/numberUrgentProducts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0B0707"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/numberCategories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0B0707"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/numberProducts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0B0707"
+            android:textSize="36sp" />-->
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

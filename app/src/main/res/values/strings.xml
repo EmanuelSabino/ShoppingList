@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">ShoopingList</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!--Nav menu-->
+    <string name="menu_home">Home</string>
+    <string name="menu_urgentList">Urgent Products</string>
+    <string name="menu_allList">All Products</string>
+    <string name="menu_categories">Categories</string>
+    <string name="menu_editProduct">Edit Product</string>
+    <string name="menu_editCategory">Edit Category</string>
+    <string name="menu_editList">Edit List</string>
+    <string name="menu_finalPrice">Final Price</string>
+    <!--TextViews!!-->
+    <string name="editurgentlist">Edit Urgent List</string>
+    <string name="Searchbyname">Search by name</string>
+    <string name="finalize">Finalize</string>
+    <string name="ok">OK</string>
+    <string name="editcategory">Edit Category</string>
+    <!--TexTitle-->
+    <string name="allist">All Products </string>
+    <string name="allcategories">All Categories</string>
+    <string name="finalprice">Final Price</string>
+    <string name="addNewCategory">Add New Category</string>
+    <string name="addNewProduct">Add New Product</string>
+    <string name="numberProducts">Nº Products:</string>
+    <string name="numberCategories">Nº Categories:</string>
+    <string name="numberUrgentProducts">Nº Urgent Prod:</string>
+    <!--TextViews hint's-->
+    <string name="textNameCategory">Category name:</string>
+    <string name="textNewNameCategory">New Category name:</string>
+    <string name="textName">Name:</string>
+    <string name="textPrice">Price:</string>
+    <string name="textCategory">Category:</string>
+    <string name="textUrgent">Urgent:</string>
+    <string name="textQuant">Quant:</string>
+    <string name="textDesc">Description:</string>
+    <string name="spinnerCategories">Categories:</string>
+    <string name="isUrgent">Is Urgent</string>
+
+    <!--buttons-->
+    <string name="buttonAdd">Add</string>
+    <string name="buttonCancel">Cancel</string>
+    <string name="saveButton">Save</string>
+    <string name="buttonNewCategory">Add Category</string>
+
+    <!--RadioButtons-->
+    <string name="atoz">A to Z</string>
+    <string name="ztoa">Z to A</string>
+    <string name="none">None</string>
+    <string name="Asc">€ Asc</string>
+    <string name="Desc">€ Desc</string>
+
+    <!--Settings-->
+    <string name="reset">reset</string>
+    <string name="skypQuestion">Skip Selected Products</string>
+    <string name="ignorWarnings">Ignore Warnings</string>
+    <string name="ignorquestions">Ignore Questions</string>
+    <string name="titlesettings">Settings</string>
+    <string name="editphoto">Edit Photo:</string>
+    <string name="editusername">Edit User Name:</string>
+    <string name="resetdata">Reset Data</string>
+    <string name="resetProducts">Clear All Products</string>
+    <string name="resetCategories">Clear All Categories</string>
+    <string name="removeimg">Remove Image</string>
+    <!--About-->
+    <string name="photo">Photo:</string>
+    <string name="aboutmain">About</string>
+    <string name="titelabout">About</string>
+    <string name="about"><b>Autor:</b>\nLuís Emanuel Santos Sabino - A037113\nRui Pedro Ferreira Castro - A036832\n\n<b>Cadeira:</b>\nComputação Móvel\n\n<b>Professor:</b>\nTelmo Rui Dias Bento</string>
+    <string name="aboutapp">About App</string>
+    <!--Nav header main-->
+    <string name="maia">IPMAIA - Computação Móvel\nShopping List</string>
+    <string name="email"></string>
+
+    <!--Welcome App-->
+    <string name="areyou">HOW ARE YOU</string>
+    <string name="enter">enter</string>
+    <string name="username">User Name</string>
+    <string name="welcomeDet">With this app you can create a simple shopping list, and more:\n\n- You can know the number of products on the list\n- You can separate everything by category.
+        \n- You can mark a product on the list, with urgency for purchase \n- You can have a final price perspective</string>
+    <!--Others-->
+    <string name="description_product">Description if case</string>
+    <string name="description">Description</string>
+    <string name="finalPrice">Final Price</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <CheckBox
+        android:id="@+id/checkBoxProds04"
+        android:layout_width="170dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewPrice04"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|center_vertical"
+        android:textColor="#090606"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewQuant04"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|center_vertical"
+        android:textColor="#090606"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonInf04"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="#08FFFFFF"
+        android:outlineAmbientShadowColor="#02FFFFFF"
+        android:outlineSpotShadowColor="#00FFFFFF"
+        app:srcCompat="@drawable/inf1_foreground" />
+
+</LinearLayout>

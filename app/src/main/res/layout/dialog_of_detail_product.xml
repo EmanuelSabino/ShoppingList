@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="#B2090303"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+
+        <TextView
+            android:id="@+id/textrwrerVeiew8we"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textName"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/textview_name_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+
+        <TextView
+            android:id="@+id/textView8we"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textQuant"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textview_quant_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+
+        <TextView
+            android:id="@+id/textVeiew8we"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textPrice"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textview_price_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+
+        <TextView
+            android:id="@+id/textVeiews8we"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textCategory"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textview_Category_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+
+        <TextView
+            android:id="@+id/tdextVeiew8we"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Is Urgent:"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textview_urgent_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="0" />
+
+        <TextView
+            android:id="@+id/textviewdescriptionofdialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/description"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textview_description_dialog"
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:justificationMode="inter_word"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:text="@string/ok"
+        android:textColor="#2196F3"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+</LinearLayout>
